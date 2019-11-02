@@ -1,0 +1,12 @@
+@host = http://localhost:3000
+
+POST {{host}}/products
+
+{ "title": "A Test", "description": "This is a first product", "price": 29.99}
+###
+GET {{host}}/products
+
+###
+GET {{host}}/products/0.852840207362544
+
+###
